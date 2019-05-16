@@ -9,3 +9,5 @@ const curry = (fn, ...args) => {
         return fn(...args, ...rest);
     };
 };
+
+export { curry };
