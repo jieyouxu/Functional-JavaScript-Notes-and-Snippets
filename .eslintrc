@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": false,
+    "es6": true,
+    "node": true
+  },
+  "plugins": [],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "indent": ["warn", 4],
+    "linebreak-style": ["warn", "unix"],
+    "comma-dangle": "warn",
+    "no-console": "off",
+    "quotes": ["warn", "double", { "allowTemplateLiterals": true }],
+    "semi": ["warn", "always"],
+    "no-var": "error",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "max-len": ["warn", 80, { "ignoreTemplateLiterals": true }]
+  },
+  "globals": {}
+}
