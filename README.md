@@ -1,2 +1,2 @@
-# Functional-JavaScript-Snippets
-Some functional JavaScript snippets.
+# Functional JavaScript Snippets
+Some notes and snippets on functional JavaScript, from [James Sinclaire](https://jrsinclair.com/web-development/).
