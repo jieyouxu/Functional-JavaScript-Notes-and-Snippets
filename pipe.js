@@ -10,3 +10,5 @@
 const pipe = (...functions) => {
     return x => functions.reduce((v, fn) => fn(v), x);
 };
+
+export { pipe };

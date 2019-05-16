@@ -12,3 +12,5 @@
 const compose = (...functions) => {
     return x => functions.reduceRight((v, fn) => fn(v), x);
 };
+
+export { compose };
